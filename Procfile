@@ -1,1 +1,1 @@
-web: python GetURLMain.py
+web: gunicorn gettingstarted.wsgi --log-file -
